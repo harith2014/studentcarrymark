@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="list_lecture.xsl"?>
+
+<university>
+	<lecture>
+		<LectureName>Pn.Hani</LectureName>
+		<LectureID>111</LectureID>
+		<LecturePassword>123456</LecturePassword>
+	</lecture>
+</university>

@@ -1,0 +1,20 @@
+<!DOCTYPE university SYSTEM "student.dtd">
+<!ELEMENT university (student)+>
+<!ELEMENT student (StudentName,StudentID,Password,IcNO,Group,Team,Programme,HandPhone,Email,Photo,cm)>
+<!ELEMENT StudentName (#PCDATA)>
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT IcNO (#PCDATA)>
+<!ELEMENT Group (#PCDATA)>
+<!ELEMENT Team (#PCDATA)>
+<!ELEMENT Programme (#PCDATA)>
+<!ELEMENT HandPhone (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+
+<!ELEMENT cm (quiz|test|assign|proj|total)>
+<!ELEMENT quiz (#PCDATA)>
+<!ELEMENT test (#PCDATA)>
+<!ELEMENT assign (#PCDATA)>
+<!ELEMENT proj (#PCDATA)>
+<!ELEMENT total (#PCDATA)>

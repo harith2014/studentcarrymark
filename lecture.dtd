@@ -1,0 +1,6 @@
+<!DOCTYPE university SYSTEM "lecture.dtd">
+<!ELEMENT lecture(lecture*)>
+<!ELEMENT lecture(LectureName, LectureID, LecturePassword)>
+<!EMELENT LectureName (#PCDATA)>
+<!ELEMENT LectureID (#PCDATA)>
+<!ELEMENT LecturePassword (#PCDATA)>

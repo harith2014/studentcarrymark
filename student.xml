@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<!DOCTYPE university [
+<!ELEMENT university (student)+>
+<!ELEMENT student (StudentName , StudentID , Password , IcNO , groupid , Group , Team , Programme , HandPhone , Email , Photo , cm)>
+<!ELEMENT StudentName (#PCDATA)>
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT IcNO (#PCDATA)>
+<!ELEMENT groupid (#PCDATA)>
+<!ELEMENT Group (#PCDATA)>
+<!ELEMENT Team (#PCDATA)>
+<!ELEMENT Programme (#PCDATA)>
+<!ELEMENT HandPhone (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Photo (#PCDATA)>
+<!ELEMENT cm (test , assign , quiz , proj , total)>
+<!ELEMENT test (#PCDATA)>
+<!ELEMENT assign (#PCDATA)>
+<!ELEMENT quiz (#PCDATA)>
+<!ELEMENT proj (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+]>
+<university>
+  <student>
+    <StudentName>haris</StudentName>
+    <StudentID>1111</StudentID>
+    <Password>1234</Password>
+    <IcNO>1234567890lolz</IcNO>
+    <groupid>2</groupid>
+    <Group>CS2514B</Group>
+    <Team>9</Team>
+    <Programme>Netcentriclolzzzzz</Programme>
+    <HandPhone>0173993972lolz</HandPhone>
+    <Email>sha_indiependent9@yahoo.comlolz</Email>
+    <Photo>jerebu.jpg</Photo>
+    <cm>
+      <test>20</test>
+      <assign>10</assign>
+      <quiz>10</quiz>
+      <proj>10</proj>
+      <total>50</total>
+    </cm>
+  </student>
+  <student>
+    <StudentName>harith</StudentName>
+    <StudentID>1231</StudentID>
+    <Password>123</Password>
+    <IcNO>32</IcNO>
+    <groupid>2</groupid>
+    <Group>CS2514B</Group>
+    <Team>2</Team>
+    <Programme>234</Programme>
+    <HandPhone>sds</HandPhone>
+    <Email>sdf</Email>
+    <Photo>aku.jpg</Photo>
+    <cm>
+      <test>0</test>
+      <assign>0</assign>
+      <quiz>0</quiz>
+      <proj>0</proj>
+      <total>0</total>
+    </cm>
+  </student>
+  <student>
+    <StudentName>hashim</StudentName>
+    <StudentID>321</StudentID>
+    <Password>123</Password>
+    <IcNO>1123</IcNO>
+    <groupid>3</groupid>
+    <Group>CS2514C</Group>
+    <Team>1</Team>
+    <Programme>neretw</Programme>
+    <HandPhone>123</HandPhone>
+    <Email>12312@assd</Email>
+    <Photo>ilearn.JPG</Photo>
+    <cm>
+      <test>12</test>
+      <assign>12</assign>
+      <quiz>32</quiz>
+      <proj>12</proj>
+      <total>68</total>
+    </cm>
+  </student>
+  <student>
+    <StudentName>wdasd</StudentName>
+    <StudentID>1234</StudentID>
+    <Password>1234</Password>
+    <IcNO>123</IcNO>
+    <groupid>1</groupid>
+    <Group>CS2514A</Group>
+    <Team>1</Team>
+    <Programme>sadasd</Programme>
+    <HandPhone>asdas</HandPhone>
+    <Email>asd@sdsd</Email>
+    <Photo>Desert.jpg</Photo>
+    <cm>
+      <test>0</test>
+      <assign>0</assign>
+      <quiz>0</quiz>
+      <proj>0</proj>
+      <total>0</total>
+    </cm>
+  </student>
+  <student>
+    <StudentName>Madot</StudentName>
+    <StudentID>675432</StudentID>
+    <Password>4321</Password>
+    <IcNO>1234567</IcNO>
+    <groupid>2</groupid>
+    <Group>CS2514B</Group>
+    <Team>11</Team>
+    <Programme>Netcentriclolz</Programme>
+    <HandPhone>0123456789</HandPhone>
+    <Email>fazmin_kassim92@yahoo.com</Email>
+    <Photo>subuh.jpg</Photo>
+    <cm>
+      <test>0</test>
+      <assign>0</assign>
+      <quiz>0</quiz>
+      <proj>0</proj>
+      <total>0</total>
+    </cm>
+  </student>
+  <student>
+    <StudentName>jannah</StudentName>
+    <StudentID>2222</StudentID>
+    <Password>2222</Password>
+    <IcNO>910517105837</IcNO>
+    <groupid>1</groupid>
+    <Group>CS2514A</Group>
+    <Team>1</Team>
+    <Programme>netcentric</Programme>
+    <HandPhone>0175858321</HandPhone>
+    <Email>jan@gmail.com</Email>
+    <Photo>Chrysanthemum.jpg</Photo>
+    <cm>
+      <test>0</test>
+      <assign>0</assign>
+      <quiz>0</quiz>
+      <proj>0</proj>
+      <total>0</total>
+    </cm>
+  </student>
+  <student>
+    <StudentName>khairi</StudentName>
+    <StudentID>3333</StudentID>
+    <Password>3333</Password>
+    <IcNO>910517105834</IcNO>
+    <groupid>2</groupid>
+    <Group>CS2514B</Group>
+    <Team>1</Team>
+    <Programme>netcentric</Programme>
+    <HandPhone>0123456787</HandPhone>
+    <Email>key_on92@yahoo.com.my</Email>
+    <Photo>Penguins.jpg</Photo>
+    <cm>
+      <test>0</test>
+      <assign>0</assign>
+      <quiz>0</quiz>
+      <proj>0</proj>
+      <total>0</total>
+    </cm>
+  </student>
+  <student>
+    <StudentName>Mohd Bakri</StudentName>
+    <StudentID>777</StudentID>
+    <Password>777</Password>
+    <IcNO>777</IcNO>
+    <groupid>3</groupid>
+    <Group>CS2514C</Group>
+    <Team>1</Team>
+    <Programme>netcentric</Programme>
+    <HandPhone>017777777</HandPhone>
+    <Email>hancus_lebur@yahoo.com</Email>
+    <Photo>Koala.jpg</Photo>
+    <cm>
+      <test>20</test>
+      <assign>8</assign>
+      <quiz>8</quiz>
+      <proj>19</proj>
+      <total>55</total>
+    </cm>
+  </student>
+</university>
